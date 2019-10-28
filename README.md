@@ -90,7 +90,7 @@ docker-compose down
 - Alpine >= 3.3
 - Oracle Linux >= 5
 
-## DoSec 容器安全产品对比
+## DoSec 安全产品对比
 
 |        功能        | Harbor-Scanner | [镜界容器安全防护平台](https://www.dosec.cn/) |
 | ------------------ | :------------: | :-------------------------------------------: |
