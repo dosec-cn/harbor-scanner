@@ -97,16 +97,16 @@ docker-compose down
 
 ## DoSec 安全产品对比
 
-|        功能        | Harbor-Scanner | [镜界容器安全防护平台](https://www.dosec.cn/) |
-| ------------------ | :------------: | :-------------------------------------------: |
-| 许可               |      免费      |                    企业版                     |
-| 支持与 Harbor 集成 |       √        |                       √                       |
-| 系统软件包漏洞扫描 |       √        |                       √                       |
-| 开源组件漏洞扫描   |                |                       √                       |
-| 恶意软件扫描       |                |                       √                       |
-| 敏感数据扫描       |                |                       √                       |
-| 镜像配置检查       |                |                       √                       |
-| 镜像历史行为分析   |                |                       √                       |
-| 阻止非信任镜像运行 |                |                       √                       |
-| 运行时保护         |                |                       √                       |
-| 合规检查           |                |                       √                       |
+|        功能        |   Harbor-Scanner   | [镜界容器安全防护平台](https://www.dosec.cn/) |
+| ------------------ | :----------------: | :-------------------------------------------: |
+| 许可               |        免费        |                    企业版                     |
+| 支持与 Harbor 集成 | :heavy_check_mark: |               :heavy_check_mark:              |
+| 系统软件包漏洞扫描 | :heavy_check_mark: |               :heavy_check_mark:              |
+| 开源组件漏洞扫描   |                    |               :heavy_check_mark:              |
+| 恶意软件扫描       |                    |               :heavy_check_mark:              |
+| 敏感数据扫描       |                    |               :heavy_check_mark:              |
+| 镜像配置检查       |                    |               :heavy_check_mark:              |
+| 镜像历史行为分析   |                    |               :heavy_check_mark:              |
+| 阻止非信任镜像运行 |                    |               :heavy_check_mark:              |
+| 运行时保护         |                    |               :heavy_check_mark:              |
+| 合规检查           |                    |               :heavy_check_mark:              |
