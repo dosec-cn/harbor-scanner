@@ -8,7 +8,7 @@
 
 推荐将 Harbor-Scanner 和 Harbor 镜像仓库部署在同一台服务器。
 
-- 下载 Harbor-Scanner 的离线安装包并解压
+1. 下载 Harbor-Scanner 的离线安装包并解压
 
     ```shell
     wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.0/dosec-scanner.tgz
@@ -18,7 +18,7 @@
     cd dosec-scanner
     ```
 
-- 运行 Install 脚本
+2. 运行 Install 脚本
 
     > 需要提前安装 docker-compose
 
@@ -26,7 +26,7 @@
     ./Install.sh
     ```
 
-- 配置 Harbor 仓库
+3. 配置 Harbor 仓库
 
     登录 Harbor 管理界面 -> 配置管理 -> Scanners -> NEW SCANNER
 
@@ -34,12 +34,15 @@
 
     填写扫描器配置 -> 点击 ADD 确认添加
 
-    ![扫描工具配置](http://img.dosec.cn/20191028160030.png)
+    ![扫描工具配置](http://img.dosec.cn/20191028154900.png)
 
-    1. 填写扫描工具的名称
-    2. 填写扫描工具的 IP 和端口
-    3. 测试 Harbor 和扫描工具是否能正常连接
-    4. 只有测试连接成功后才能添加
+    ① 填写扫描工具的名称
+
+    ② 填写扫描工具的 IP 和端口
+
+    ③ 测试 Harbor 和扫描工具是否能正常连接
+
+    ④ 只有测试连接成功后才能添加
 
 ## 自定义配置
 
@@ -110,3 +113,9 @@ docker-compose down
 | 阻止非信任镜像运行 |                    |               :heavy_check_mark:              |
 | 运行时保护         |                    |               :heavy_check_mark:              |
 | 合规检查           |                    |               :heavy_check_mark:              |
+
+## 社区交流
+
+**微信群**: Harbor-Scanner 交流群, 扫描社区成员微信二维码, 添加时请备注姓名-公司/学校/组织/机构等。
+
+![二维码](http://img.dosec.cn/2019_10_28_1838167633.png)
