@@ -11,7 +11,7 @@
 1. 下载 Harbor-Scanner 的离线安装包并解压
 
     ```shell
-    wget dosec-scanner.tgz
+    wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.0/dosec-scanner.tgz
     # 解压
     tar xf dosec-scanner.tgz
     # 进入项目
