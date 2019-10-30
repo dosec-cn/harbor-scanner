@@ -6,7 +6,7 @@ A free image vulnerability scanner, implement [Harbor's](https://github.com/goha
 
 * Accurate vulnerability scan result, support CVE and CNNVD vulnerability ID, Chinese vulnerability description
 * CVE database auto update(config it in docker compose's yaml file)
-* Avaliable immediately after deploy, withou waiting for updating database, the offline package already include newest CVE database
+* Avaliable immediately after deploy, without waiting for updating database, the offline package already include newest CVE database
 
 ## Install
 
@@ -32,7 +32,7 @@ A free image vulnerability scanner, implement [Harbor's](https://github.com/goha
 
     Login Harbor UI -> Configuration -> Scanners -> NEW SCANNER
 
-    ![new scanner](http://img.dosec.cn/20191028115555.png)
+    ![new scanner](http://img.dosec.cn/20191030162939.png)
 
     fill in the configuration -> click ADD to finish
 
@@ -102,18 +102,18 @@ docker-compose down
 
 ## DoSec Production Compare
 
-|      Function      |   Harbor-Scanner   | [DoSec Container Security Platform](https://www.dosec.cn/) |
-| ------------------ | :----------------: | :-------------------------------------------: |
-| Edition            |        Free        |       Enterprise Edition                     |
-| Integration with Harbor  | :heavy_check_mark: |               :heavy_check_mark:              |
-| OS package vulnerability | :heavy_check_mark: |               :heavy_check_mark:              |
-| Open source component vulnerability  |                    |               :heavy_check_mark:              |
-| Malware Detection|                    |               :heavy_check_mark:              |
-|  Sensitive Files Detection      |                    |               :heavy_check_mark:              |
-| Image Configuration Analysis|                    |               :heavy_check_mark:              |
-| Docker File Analysis      |                    |               :heavy_check_mark:              |
-| Runtime Protection|                    |               :heavy_check_mark:              |
-| Benchmark Check           |                    |               :heavy_check_mark:              |
+|               Function              |   Harbor-Scanner   | [DoSec Container Security Platform](https://www.dosec.cn/) |
+| ----------------------------------- | :----------------: | :--------------------------------------------------------: |
+| Edition                             |        Free        |                     Enterprise Edition                     |
+| Integration with Harbor             | :heavy_check_mark: |                     :heavy_check_mark:                     |
+| OS package vulnerability            | :heavy_check_mark: |                     :heavy_check_mark:                     |
+| Open source component vulnerability |                    |                     :heavy_check_mark:                     |
+| Malware Detection                   |                    |                     :heavy_check_mark:                     |
+| Sensitive Files Detection           |                    |                     :heavy_check_mark:                     |
+| Image Configuration Analysis        |                    |                     :heavy_check_mark:                     |
+| Docker File Analysis                |                    |                     :heavy_check_mark:                     |
+| Runtime Protection                  |                    |                     :heavy_check_mark:                     |
+| Benchmark Check                     |                    |                     :heavy_check_mark:                     |
 
 ## Community 
 
