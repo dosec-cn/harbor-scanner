@@ -30,9 +30,9 @@ A free image vulnerability scanner, implement [Harbor's](https://github.com/goha
 
 3. Config Harbor
 
-    Login Harbor UI -> Configuration -> Scanners -> NEW SCANNER
+    Login Harbor UI -> Interrogation Services -> Scanners -> NEW SCANNER
 
-    ![new scanner](http://img.dosec.cn/20191030162939.png)
+    ![new scanner](http://img.dosec.cn/20191223112746.png)
 
     fill in the configuration -> click ADD to finish
 
