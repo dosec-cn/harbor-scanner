@@ -34,9 +34,9 @@
 
 3. 配置 Harbor 仓库
 
-    登录 Harbor 管理界面 -> 配置管理 -> Scanners -> NEW SCANNER
+    登录 Harbor 管理界面 -> 审查服务 -> 扫描器 -> 新建扫描器
 
-    ![新建扫描工具](http://img.dosec.cn/20191028115555.png)
+    ![新建扫描工具](http://img.dosec.cn/20191223112547.png)
 
     填写扫描器配置 -> 点击 ADD 确认添加
 
