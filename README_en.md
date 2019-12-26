@@ -15,7 +15,7 @@ A free image vulnerability scanner, implement [Harbor's](https://github.com/goha
     ```shell
     wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.0/dosec-scanner.tgz
     # decompress
-    tar xf dosec-scanner.tgz
+    tar zxf dosec-scanner.tgz
     # change work directory
     cd dosec-scanner
     ```

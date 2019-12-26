@@ -19,7 +19,7 @@
     ```shell
     wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.0/dosec-scanner.tgz
     # 解压
-    tar xf dosec-scanner.tgz
+    tar zxf dosec-scanner.tgz
     # 进入项目
     cd dosec-scanner
     ```
