@@ -36,7 +36,7 @@ A free image vulnerability scanner, implement [Harbor's](https://github.com/goha
 
     fill in the configuration -> click ADD to finish
 
-    ![scanner config](http://img.dosec.cn/20191028154900.png)
+    ![scanner config](http://img.dosec.cn/20200112194526.png)
 
     ① scanner name
 
