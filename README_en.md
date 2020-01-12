@@ -100,9 +100,9 @@ docker-compose down
 - Alpine >= 3.3
 - Oracle Linux >= 5
 
-## DoSec Production Compare
+## Dosec Production Compare
 
-|               Function              |   Harbor-Scanner   | [DoSec Container Security Platform](https://www.dosec.cn/) |
+|               Function              |   Harbor-Scanner   | [Dosec Container Security Platform](https://www.dosec.cn/) |
 | ----------------------------------- | :----------------: | :--------------------------------------------------------: |
 | Edition                             |        Free        |                     Enterprise Edition                     |
 | Integration with Harbor             | :heavy_check_mark: |                     :heavy_check_mark:                     |
