@@ -17,7 +17,7 @@
 1. 下载 Harbor-Scanner 的离线安装包并解压
 
     ```shell
-    wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.0/dosec-scanner.tgz
+    wget https://github.com/dosec-cn/harbor-scanner/releases/download/v1.2/dosec-scanner.tgz
     # 解压
     tar zxf dosec-scanner.tgz
     # 进入项目
@@ -59,13 +59,13 @@ version: '2.2'
 
 services:
   dosec-db-hb:
-    image: hub.dosec.cn/library/dosec-db-hb:2019-10-24T18.39.33
+    image: hub.dosec.cn/library/dosec-db-hb:2021-04-06T14.21.24
     restart: always
 
   dosec-scannerapp:
     depends_on:
       - dosec-db-hb
-    image: hub.dosec.cn/library/dosec-scannerapp:2019-10-24T19.17.35V1.0.0_prod
+    image: hub.dosec.cn/library/dosec-scannerapp:2021-04-02T19.42.13V1.0.0_prod
     # 默认映射了主机的 8899 端口
     ports:
       - "8899:8899"
@@ -78,7 +78,7 @@ services:
     depends_on:
       - dosec-db-hb
       - dosec-scannerapp
-    image: hub.dosec.cn/library/dosec-scanner-hb:2019-10-25T11.58.04V1.0_release
+    image: hub.dosec.cn/library/dosec-scanner-hb:2021-04-02T17.07.22V1.2_release
     # command: ["-update_cve"]
     # 默认注释了在线更新 CVE 功能, 会消耗大量 CPU 和内存
     restart: always
