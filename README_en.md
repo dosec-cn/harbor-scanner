@@ -55,7 +55,7 @@ version: '2.2'
 
 services:
   dosec-db-hb:
-    image: hub.dosec.cn/library/dosec-db:2022-07-07T16.56.50V2.0-20220706
+    image: hub.dosec.cn/library/dosec-db-hb:2022-07-07T16.56.50V2.0-20220706
     restart: always
 
   dosec-scannerapp:
